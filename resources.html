@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resources | ExtraReach</title>
+  <meta name="description" content="Standards, case studies, and incentive links Hector is using while planning ExtraReach.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <div class="brand">
+          <a href="index.html">ExtraReach</a>
+          <span class="brand-tag">Zero-energy Passive House journey</span>
+        </div>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          Menu
+        </button>
+        <nav class="nav" id="site-nav" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="basics.html">Passive House Basics</a>
+          <a href="journal.html">Build Journal</a>
+          <a href="resources.html" aria-current="page">Resources</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-main">
+      <div class="wrap stub">
+        <h1>Resources</h1>
+        <p>
+          A curated shelf of standards, case studies, incentive explainers, and policy
+          notes I’m actually using for ExtraReach—not a dump of every Passive House PDF
+          on the internet.
+        </p>
+        <p>
+          Placeholder for now. The first weekly post already cites the primary sources
+          for Phius 2024, Spark Side, IRS OBBB FAQs, and Washington 2SHB 1183.
+        </p>
+        <p>
+          <a class="btn btn-primary" href="post-phius-2024-what-changed.html">See cited sources</a>
+          <a class="btn btn-ghost" href="index.html">Back home</a>
+        </p>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>© 2026 ExtraReach.com · Zero-Energy Passive House Blog</p>
+      </div>
+    </footer>
+  </div>
+  <script>
+    (function () {
+      var btn = document.querySelector('.nav-toggle');
+      var nav = document.getElementById('site-nav');
+      if (!btn || !nav) return;
+      btn.addEventListener('click', function () {
+        var open = nav.classList.toggle('is-open');
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+    })();
+  </script>
+</body>
+</html>

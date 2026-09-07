@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Build Journal | ExtraReach</title>
+  <meta name="description" content="Weekly notes from Hector Royes’ zero-energy Passive House planning journey.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <div class="brand">
+          <a href="index.html">ExtraReach</a>
+          <span class="brand-tag">Zero-energy Passive House journey</span>
+        </div>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          Menu
+        </button>
+        <nav class="nav" id="site-nav" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="basics.html">Passive House Basics</a>
+          <a href="journal.html" aria-current="page">Build Journal</a>
+          <a href="resources.html">Resources</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-main">
+      <div class="wrap stub">
+        <h1>Build Journal</h1>
+        <p>
+          The journal is where ExtraReach lives week to week—standards updates,
+          envelope decisions, mechanical shortlists, and incentive timelines as the
+          Passive House plan takes shape.
+        </p>
+        <p>
+          Full archive coming soon. The first weekly post is ready now:
+        </p>
+        <p>
+          <a href="post-phius-2024-what-changed.html"><strong>What changed in Passive House standards for 2026 builds</strong></a>
+          <span style="color:var(--text-dim);"> · September 2026</span>
+        </p>
+        <p style="margin-top:1.5rem;">
+          Earlier notes from the live site (stubs until republished here):
+        </p>
+        <ul style="color:var(--text-muted);">
+          <li>Why I’m Building a Zero-Energy Passive House — January 2026</li>
+          <li>The Passive House Principles That Changed My Thinking — January 2026</li>
+        </ul>
+        <p>
+          <a class="btn btn-primary" href="post-phius-2024-what-changed.html">Open latest post</a>
+          <a class="btn btn-ghost" href="index.html">Back home</a>
+        </p>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>© 2026 ExtraReach.com · Zero-Energy Passive House Blog</p>
+      </div>
+    </footer>
+  </div>
+  <script>
+    (function () {
+      var btn = document.querySelector('.nav-toggle');
+      var nav = document.getElementById('site-nav');
+      if (!btn || !nav) return;
+      btn.addEventListener('click', function () {
+        var open = nav.classList.toggle('is-open');
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+    })();
+  </script>
+</body>
+</html>

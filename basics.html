@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Passive House Basics | ExtraReach</title>
+  <meta name="description" content="A plain-language primer on Passive House principles for the ExtraReach zero-energy build.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <div class="brand">
+          <a href="index.html">ExtraReach</a>
+          <span class="brand-tag">Zero-energy Passive House journey</span>
+        </div>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          Menu
+        </button>
+        <nav class="nav" id="site-nav" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="basics.html" aria-current="page">Passive House Basics</a>
+          <a href="journal.html">Build Journal</a>
+          <a href="resources.html">Resources</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-main">
+      <div class="wrap stub">
+        <h1>Passive House Basics</h1>
+        <p>
+          This page will become ExtraReach’s plain-language primer: insulation,
+          airtightness, thermal-bridge-free details, high-performance windows,
+          heat-recovery ventilation, and right-sized heat pumps.
+        </p>
+        <p>
+          For now, start with the latest journal post on what changed in the standards
+          for 2026 builds—then come back here as the primer fills in.
+        </p>
+        <p>
+          <a class="btn btn-primary" href="post-phius-2024-what-changed.html">Read the latest post</a>
+          <a class="btn btn-ghost" href="index.html">Back home</a>
+        </p>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>© 2026 ExtraReach.com · Zero-Energy Passive House Blog</p>
+      </div>
+    </footer>
+  </div>
+  <script>
+    (function () {
+      var btn = document.querySelector('.nav-toggle');
+      var nav = document.getElementById('site-nav');
+      if (!btn || !nav) return;
+      btn.addEventListener('click', function () {
+        var open = nav.classList.toggle('is-open');
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+    })();
+  </script>
+</body>
+</html>
