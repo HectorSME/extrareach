@@ -62,7 +62,31 @@
 
     <footer class="site-footer">
       <div class="wrap">
-        <p>© 2026 ExtraReach.com · Zero-Energy Passive House Blog</p>
+        <div class="footer-newsletter" aria-labelledby="footer-newsletter-title">
+          <h2 id="footer-newsletter-title">Get ExtraReach in your inbox</h2>
+          <p class="newsletter-lede">Short notes from the Passive House planning journal.</p>
+          <form
+            class="newsletter-form"
+            action="https://buttondown.com/api/emails/embed-subscribe/HectorSME"
+            method="post"
+          >
+            <div class="newsletter-fields">
+              <label>
+                <span class="label">Name</span>
+                <input type="text" name="metadata__first-name" required autocomplete="given-name" placeholder="Your name">
+              </label>
+              <label>
+                <span class="label">Email</span>
+                <input type="email" name="email" required autocomplete="email" placeholder="you@example.com">
+              </label>
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </div>
+            <input type="hidden" name="embed" value="1">
+          </form>
+          <p class="newsletter-note">For the ExtraReach Passive House journal newsletter only. Unsubscribe anytime.</p>
+          <p class="newsletter-powered"><a href="https://buttondown.com" rel="noopener noreferrer" target="_blank">Powered by Buttondown</a></p>
+        </div>
+        <p class="copyright">© 2026 ExtraReach.com · Zero-Energy Passive House Blog</p>
       </div>
     </footer>
   </div>
