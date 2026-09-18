@@ -1,6 +1,6 @@
 # ExtraReach redesign (local)
 
-Local redesign + first weekly journal post for **ExtraReach** (Hector Royes / Carlos, chief designer). Offline-friendly static HTML/CSS—no build step, no trackers.
+Local redesign + first weekly journal post for **ExtraReach** (Hector Jones / Carlos, chief designer). Offline-friendly static HTML/CSS—no build step, no trackers.
 
 ## Preview locally
 
