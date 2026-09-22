@@ -524,6 +524,39 @@ a:focus-visible {
   font-size: 1.1rem;
 }
 
+.article-topics {
+  margin: 0.85rem 0 0;
+  padding-left: 1.2rem;
+  color: var(--text-muted);
+  font-size: 1.05rem;
+  line-height: 1.45;
+}
+
+.article-topics li {
+  margin: 0.25rem 0;
+}
+
+.article-topics li::marker {
+  color: var(--accent);
+}
+
+.post-card .topic-list {
+  margin: 0;
+  padding-left: 1.15rem;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  flex: 1;
+  line-height: 1.4;
+}
+
+.post-card .topic-list li {
+  margin: 0.2rem 0;
+}
+
+.post-card .topic-list li::marker {
+  color: var(--accent);
+}
+
 .article-hero {
   margin: 0 0 1.75rem;
   border-radius: var(--radius);
